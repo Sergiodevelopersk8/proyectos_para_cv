@@ -4,6 +4,9 @@ import type PeliculaCreacion from "../model/PeliculaCreacion.model";
 import FormularioPelicula from "./FormularioPelicula";
 import type { SubmitHandler } from "react-hook-form";
 import Cargando from "../../../components/Cargando";
+import type Genero from "../../generos/model/Genero.model";
+import type Cine from "../../cines/model/Cine.model";
+import type ActorPelicula from "../model/ActorPelicula";
 
 export default function EditarPelicula() {
 
@@ -31,12 +34,30 @@ const {id} = useParams();
 
   }, [id]);
 
+   const generosSeleccionados : Genero[] = [{id: 2, nombre: 'Drama'}];
+    const generosNoSeleccionados : Genero[] = [{id: 1, nombre: 'Accion'}, {id: 3, nombre: 'Comedia'}]; 
+  
+  const cinesSeleccionados: Cine[] = [{id: 1, nombre: 'Cinepolisbiggy', latitud:0, longitud:0}];
+  const cinesNoSeleccionados: Cine[] = [
+     
+    {id: 2, nombre: 'Cinemexkitty',   latitud:0, longitud:0},
+    {id: 3, nombre: 'Cinepolisvladimirs', latitud:0, longitud:0}
+  ];
+
+  const actoresSeleccionados : ActorPelicula[] = [{
+          id:2, nombre:"Abigail Donelly", personaje:'novia de sergio', foto:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8xhU_UMaNueuLmsAnM9IgYPMh45ytHDP5YQ&s'
+    }]
 
   return (
 <>
 
     <h3>Editar Pelicula</h3>
-    {modelo ? <FormularioPelicula modelo={modelo} onSubmit={onSubmit} /> : <Cargando />}
+    {modelo ? <FormularioPelicula modelo={modelo} onSubmit={onSubmit} 
+    generosNoSeleciconados={generosNoSeleccionados}
+    generosSeleciconados={generosSeleccionados}
+    cinesSeleccionados={cinesSeleccionados} cinesNoSeleccionados={cinesNoSeleccionados}
+    actoresSeleccionados={actoresSeleccionados}
+    /> : <Cargando />}
 
 </>
 
