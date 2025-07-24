@@ -1,0 +1,36 @@
+/* src/App.css */
+
+body {
+  margin: 0; /* Elimina el margen por defecto del navegador */
+  font-family: Arial, sans-serif; /* Fuente base para toda la app */
+  background-color: #f0f2f5; /* Color de fondo suave para la página */
+  color: #333; /* Color de texto predeterminado */
+  line-height: 1.6; /* Altura de línea para mejor legibilidad */
+}
+
+#root {
+  /* El div raíz donde React renderiza la aplicación */
+  min-height: 100vh; /* Asegura que la app ocupe al menos toda la altura de la ventana */
+  display: flex;
+  flex-direction: column; /* Útil si quieres un footer pegado abajo, por ejemplo */
+}
+
+.App {
+  /* Estilos del contenedor principal de tu aplicación */
+  text-align: center; /* Centra el texto de cabeceras, etc. */
+  padding: 20px; /* Espaciado interno general */
+  flex-grow: 1; /* Permite que el contenido principal ocupe el espacio disponible */
+}
+
+h1 {
+  /* Estilos para el título principal de la galería */
+  color: #2c3e50; /* Un color azul oscuro distintivo */
+  margin-bottom: 30px; /* Espacio debajo del título */
+}
+
+.error {
+  /* Estilos para mostrar mensajes de error */
+  color: #e74c3c; /* Color rojo para los errores */
+  font-weight: bold; /* Texto en negrita */
+  margin-top: 20px;
+}

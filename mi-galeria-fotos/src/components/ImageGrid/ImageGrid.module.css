@@ -1,0 +1,15 @@
+/* src/components/ImageGrid/ImageGrid.module.css */
+
+.grid {
+  /* Estilos del contenedor de la cuadrícula */
+  display: grid; /* Usa CSS Grid para crear el diseño de cuadrícula */
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); /* Columnas responsivas:
+                                                                * `auto-fill`: crea tantas columnas como quepan.
+                                                                * `minmax(180px, 1fr)`: cada columna tendrá un mínimo de 180px
+                                                                  y se expandirá para ocupar espacio disponible.
+                                                                */
+  gap: 15px; /* Espacio entre las tarjetas (filas y columnas) */
+  padding: 20px; /* Espaciado interno alrededor de la cuadrícula */
+  max-width: 1200px; /* Ancho máximo para la cuadrícula en pantallas grandes */
+  margin: 0 auto; /* Centra la cuadrícula horizontalmente */
+}

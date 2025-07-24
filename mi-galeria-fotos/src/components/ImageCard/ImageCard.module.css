@@ -1,0 +1,49 @@
+/* src/components/ImageCard/ImageCard.module.css */
+
+.card {
+  /* Estilos del contenedor principal de la tarjeta */
+  border: 1px solid #ddd; /* Borde suave para separar las tarjetas */
+  border-radius: 8px; /* Bordes redondeados para un look moderno */
+  overflow: hidden; /* Asegura que la imagen no sobresalga de los bordes redondeados */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil para dar profundidad */
+  transition: transform 0.2s ease-in-out; /* Transición suave al pasar el mouse */
+  cursor: pointer; /* Indica que la tarjeta es clickeable */
+  display: flex; /* Usa flexbox para organizar imagen e info */
+  flex-direction: column; /* Apila la imagen y la información verticalmente */
+  background-color: #fff; /* Fondo blanco para la tarjeta */
+}
+
+.card:hover {
+  transform: translateY(-5px); /* Efecto de "levantar" la tarjeta al pasar el mouse */
+}
+
+.image {
+  /* Estilos de la imagen dentro de la tarjeta */
+  width: 100%; /* La imagen ocupa todo el ancho de su contenedor */
+  height: 150px; /* Altura fija para todas las miniaturas */
+  object-fit: cover; /* Recorta la imagen para que cubra el área sin distorsionarla */
+  display: block; /* Elimina espacio extra debajo de la imagen si lo hubiera */
+}
+
+.info {
+  /* Estilos del contenedor de información debajo de la imagen */
+  padding: 10px; /* Espaciado interno */
+  text-align: left; /* Alineación del texto a la izquierda */
+  flex-grow: 1; /* Permite que este contenedor ocupe el espacio restante en el flexbox */
+}
+
+.title {
+  /* Estilos del título de la imagen */
+  margin: 0 0 5px 0; /* Sin margen superior/inferior, un poco a la derecha */
+  font-size: 1em; /* Tamaño de fuente relativo */
+  color: #333; /* Color de texto oscuro */
+  white-space: nowrap; /* Evita que el texto se rompa en varias líneas */
+  overflow: hidden; /* Oculta cualquier texto que sobresalga */
+  text-overflow: ellipsis; /* Añade puntos suspensivos (...) si el texto es demasiado largo */
+}
+
+.date {
+  /* Estilos de la fecha de la imagen */
+  font-size: 0.8em; /* Tamaño de fuente más pequeño */
+  color: #666; /* Color de texto gris */
+}

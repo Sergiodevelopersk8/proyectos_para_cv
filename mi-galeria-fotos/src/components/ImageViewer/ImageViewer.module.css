@@ -1,0 +1,59 @@
+/* src/components/ImageViewer/ImageViewer.module.css */
+
+.overlay {
+  /* Estilos del fondo oscuro semi-transparente que cubre toda la pantalla */
+  position: fixed; /* Fijo en la ventana de visualización */
+  top: 0;
+  left: 0;
+  width: 100%; /* Ocupa todo el ancho */
+  height: 100%; /* Ocupa toda la altura */
+  background-color: rgba(0, 0, 0, 0.8); /* Fondo negro con 80% de opacidad */
+  display: flex; /* Usa flexbox para centrar el contenido */
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+  z-index: 1000; /* Asegura que esté por encima de otros elementos */
+}
+
+.viewerContent {
+  /* Estilos del contenedor de la imagen grande y sus detalles */
+  background: white; /* Fondo blanco para el contenido */
+  padding: 20px; /* Espaciado interno */
+  border-radius: 8px; /* Bordes redondeados */
+  max-width: 90%; /* Ancho máximo del 90% de la ventana */
+  max-height: 90%; /* Altura máxima del 90% de la ventana */
+  overflow: auto; /* Agrega scroll si el contenido es demasiado grande */
+  position: relative; /* Para posicionar el botón de cerrar */
+  display: flex; /* Usa flexbox para organizar la imagen y los detalles */
+  flex-direction: column; /* Apila la imagen y los detalles verticalmente */
+  align-items: center; /* Centra los elementos dentro del visor */
+}
+
+.closeButton {
+  /* Estilos del botón para cerrar el visor */
+  position: absolute; /* Posicionamiento absoluto dentro de .viewerContent */
+  top: 10px; /* 10px desde arriba */
+  right: 10px; /* 10px desde la derecha */
+  background: none; /* Sin fondo */
+  border: none; /* Sin borde */
+  font-size: 2em; /* Tamaño de fuente grande (una 'x' o 'times') */
+  color: #333; /* Color de texto oscuro */
+  cursor: pointer; /* Indica que es clickeable */
+  padding: 0; /* Sin relleno extra */
+  line-height: 1; /* Ajusta la altura de línea */
+}
+
+.fullImage {
+  /* Estilos de la imagen principal dentro del visor */
+  max-width: 100%; /* No excede el ancho de su contenedor */
+  max-height: 70vh; /* Altura máxima del 70% del viewport (para dejar espacio a los detalles) */
+  display: block; /* Elimina espacio extra */
+  object-fit: contain; /* Ajusta la imagen para que quepa completamente dentro del contenedor */
+  margin-bottom: 15px; /* Espacio debajo de la imagen */
+}
+
+.imageDetails {
+  /* Estilos del contenedor de los detalles de la imagen (título, fecha) */
+  margin-top: 15px; /* Margen superior para separarlo de la imagen */
+  text-align: center; /* Centra el texto */
+  color: #333; /* Color de texto oscuro */
+}
