@@ -2,19 +2,30 @@
 import type GeneroCreacion from "../model/GeneroCreacion.model";
 import { type SubmitHandler } from "react-hook-form";
 import FormularioGenero from "./FormularioGenero";
-
+import clienteAPI from "../../../api/clienteAxios";
+import { useNavigate } from "react-router";
+import { useState } from "react";
+import { extraerErrores } from "../../../utils/extraerErrores";
+import type { AxiosError } from "axios";
 
 export default function CrearGenero() {
   
+  const navigate = useNavigate();
   
-  
+  const [errores,setErrores] = useState<string[]>([]);
+
   const onSubmit : SubmitHandler<GeneroCreacion> = async (data) => {
     
-    console.log('creando el genero ...')
-  await new Promise(resolve => setTimeout(resolve, 2000));
-  
-  console.log(data)
+    try{
 
+      await clienteAPI.post('/generos',data);
+      navigate('/generos');
+    }
+    catch (err){
+      const errores = extraerErrores(err as AxiosError);
+      setErrores(errores);
+
+    }
 
 
   } 
@@ -24,7 +35,7 @@ export default function CrearGenero() {
     
     <h3>Crear Genero</h3>
    
-   <FormularioGenero onSubmit={onSubmit}/>
+   <FormularioGenero  errores={errores} onSubmit={onSubmit}/>
 
     
     </>

@@ -3,32 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\DrawH\\Desktop\\entrenandocode2022\\proyectos_para_cv\\react-peliculas\\PeliculasAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A6C7AED0-AFF9-42DA-90E2-B1CEB1EF0B48}|PeliculasAPI.csproj|c:\\users\\drawh\\desktop\\entrenandocode2022\\proyectos_para_cv\\react-peliculas\\peliculasapi\\controllers\\generoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A6C7AED0-AFF9-42DA-90E2-B1CEB1EF0B48}|PeliculasAPI.csproj|solutionrelative:controllers\\generoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A6C7AED0-AFF9-42DA-90E2-B1CEB1EF0B48}|PeliculasAPI.csproj|c:\\users\\drawh\\desktop\\entrenandocode2022\\proyectos_para_cv\\react-peliculas\\peliculasapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A6C7AED0-AFF9-42DA-90E2-B1CEB1EF0B48}|PeliculasAPI.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A6C7AED0-AFF9-42DA-90E2-B1CEB1EF0B48}|PeliculasAPI.csproj|c:\\users\\drawh\\desktop\\entrenandocode2022\\proyectos_para_cv\\react-peliculas\\peliculasapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A6C7AED0-AFF9-42DA-90E2-B1CEB1EF0B48}|PeliculasAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A6C7AED0-AFF9-42DA-90E2-B1CEB1EF0B48}|PeliculasAPI.csproj|c:\\users\\drawh\\desktop\\entrenandocode2022\\proyectos_para_cv\\react-peliculas\\peliculasapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A6C7AED0-AFF9-42DA-90E2-B1CEB1EF0B48}|PeliculasAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A6C7AED0-AFF9-42DA-90E2-B1CEB1EF0B48}|PeliculasAPI.csproj|c:\\users\\drawh\\desktop\\entrenandocode2022\\proyectos_para_cv\\react-peliculas\\peliculasapi\\irepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A6C7AED0-AFF9-42DA-90E2-B1CEB1EF0B48}|PeliculasAPI.csproj|solutionrelative:irepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A6C7AED0-AFF9-42DA-90E2-B1CEB1EF0B48}|PeliculasAPI.csproj|c:\\users\\drawh\\desktop\\entrenandocode2022\\proyectos_para_cv\\react-peliculas\\peliculasapi\\controllers\\generoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6C7AED0-AFF9-42DA-90E2-B1CEB1EF0B48}|PeliculasAPI.csproj|solutionrelative:controllers\\generoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A6C7AED0-AFF9-42DA-90E2-B1CEB1EF0B48}|PeliculasAPI.csproj|c:\\users\\drawh\\desktop\\entrenandocode2022\\proyectos_para_cv\\react-peliculas\\peliculasapi\\repositorioenmemoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A6C7AED0-AFF9-42DA-90E2-B1CEB1EF0B48}|PeliculasAPI.csproj|solutionrelative:repositorioenmemoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A6C7AED0-AFF9-42DA-90E2-B1CEB1EF0B48}|PeliculasAPI.csproj|c:\\users\\drawh\\desktop\\entrenandocode2022\\proyectos_para_cv\\react-peliculas\\peliculasapi\\dtos\\generocreaciondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6C7AED0-AFF9-42DA-90E2-B1CEB1EF0B48}|PeliculasAPI.csproj|solutionrelative:dtos\\generocreaciondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A6C7AED0-AFF9-42DA-90E2-B1CEB1EF0B48}|PeliculasAPI.csproj|c:\\users\\drawh\\desktop\\entrenandocode2022\\proyectos_para_cv\\react-peliculas\\peliculasapi\\entidades\\genero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A6C7AED0-AFF9-42DA-90E2-B1CEB1EF0B48}|PeliculasAPI.csproj|solutionrelative:entidades\\genero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A6C7AED0-AFF9-42DA-90E2-B1CEB1EF0B48}|PeliculasAPI.csproj|c:\\users\\drawh\\desktop\\entrenandocode2022\\proyectos_para_cv\\react-peliculas\\peliculasapi\\dtos\\generodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6C7AED0-AFF9-42DA-90E2-B1CEB1EF0B48}|PeliculasAPI.csproj|solutionrelative:dtos\\generodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,97 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\DrawH\\Desktop\\entrenandocode2022\\proyectos_para_cv\\react-peliculas\\PeliculasAPI\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "appsettings.Development.json",
-              "ToolTip": "C:\\Users\\DrawH\\Desktop\\entrenandocode2022\\proyectos_para_cv\\react-peliculas\\PeliculasAPI\\appsettings.Development.json",
-              "RelativeToolTip": "appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-16T09:02:57.053Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\DrawH\\Desktop\\entrenandocode2022\\proyectos_para_cv\\react-peliculas\\PeliculasAPI\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\DrawH\\Desktop\\entrenandocode2022\\proyectos_para_cv\\react-peliculas\\PeliculasAPI\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-16T09:01:49.134Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IRepositorio.cs",
-              "DocumentMoniker": "C:\\Users\\DrawH\\Desktop\\entrenandocode2022\\proyectos_para_cv\\react-peliculas\\PeliculasAPI\\IRepositorio.cs",
-              "RelativeDocumentMoniker": "IRepositorio.cs",
-              "ToolTip": "C:\\Users\\DrawH\\Desktop\\entrenandocode2022\\proyectos_para_cv\\react-peliculas\\PeliculasAPI\\IRepositorio.cs",
-              "RelativeToolTip": "IRepositorio.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-16T08:04:31.717Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\DrawH\\Desktop\\entrenandocode2022\\proyectos_para_cv\\react-peliculas\\PeliculasAPI\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\DrawH\\Desktop\\entrenandocode2022\\proyectos_para_cv\\react-peliculas\\PeliculasAPI\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA8AAABAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-16T07:55:16.959Z",
+              "WhenOpened": "2025-07-24T07:25:57.445Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Genero.cs",
-              "DocumentMoniker": "C:\\Users\\DrawH\\Desktop\\entrenandocode2022\\proyectos_para_cv\\react-peliculas\\PeliculasAPI\\Entidades\\Genero.cs",
-              "RelativeDocumentMoniker": "Entidades\\Genero.cs",
-              "ToolTip": "C:\\Users\\DrawH\\Desktop\\entrenandocode2022\\proyectos_para_cv\\react-peliculas\\PeliculasAPI\\Entidades\\Genero.cs",
-              "RelativeToolTip": "Entidades\\Genero.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwwAAAAfAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "GeneroDTO.cs",
+              "DocumentMoniker": "C:\\Users\\DrawH\\Desktop\\entrenandocode2022\\proyectos_para_cv\\react-peliculas\\PeliculasAPI\\DTOs\\GeneroDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\GeneroDTO.cs",
+              "ToolTip": "C:\\Users\\DrawH\\Desktop\\entrenandocode2022\\proyectos_para_cv\\react-peliculas\\PeliculasAPI\\DTOs\\GeneroDTO.cs",
+              "RelativeToolTip": "DTOs\\GeneroDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-16T06:53:24.975Z",
+              "WhenOpened": "2025-07-24T07:21:10.073Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "RepositorioEnMemoria.cs",
-              "DocumentMoniker": "C:\\Users\\DrawH\\Desktop\\entrenandocode2022\\proyectos_para_cv\\react-peliculas\\PeliculasAPI\\RepositorioEnMemoria.cs",
-              "RelativeDocumentMoniker": "RepositorioEnMemoria.cs",
-              "ToolTip": "C:\\Users\\DrawH\\Desktop\\entrenandocode2022\\proyectos_para_cv\\react-peliculas\\PeliculasAPI\\RepositorioEnMemoria.cs",
-              "RelativeToolTip": "RepositorioEnMemoria.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAA1wBgAAAAWAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "GeneroCreacionDTO.cs",
+              "DocumentMoniker": "C:\\Users\\DrawH\\Desktop\\entrenandocode2022\\proyectos_para_cv\\react-peliculas\\PeliculasAPI\\DTOs\\GeneroCreacionDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\GeneroCreacionDTO.cs",
+              "ToolTip": "C:\\Users\\DrawH\\Desktop\\entrenandocode2022\\proyectos_para_cv\\react-peliculas\\PeliculasAPI\\DTOs\\GeneroCreacionDTO.cs",
+              "RelativeToolTip": "DTOs\\GeneroCreacionDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T00:49:42.41Z",
+              "WhenOpened": "2025-07-24T07:17:32.991Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "GenerosController.cs",
               "DocumentMoniker": "C:\\Users\\DrawH\\Desktop\\entrenandocode2022\\proyectos_para_cv\\react-peliculas\\PeliculasAPI\\Controllers\\GenerosController.cs",
               "RelativeDocumentMoniker": "Controllers\\GenerosController.cs",
               "ToolTip": "C:\\Users\\DrawH\\Desktop\\entrenandocode2022\\proyectos_para_cv\\react-peliculas\\PeliculasAPI\\Controllers\\GenerosController.cs",
               "RelativeToolTip": "Controllers\\GenerosController.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAgwBgAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAACAAAAAAAAAAAAAcwC0AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-16T07:27:21.473Z",
+              "WhenOpened": "2025-07-24T06:27:23.473Z",
               "EditorCaption": ""
             }
           ]

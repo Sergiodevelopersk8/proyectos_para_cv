@@ -1,6 +1,26 @@
 [
   {
     "ContainingType": "PeliculasAPI.Controllers.GenerosController",
+    "Method": "Get",
+    "RelativePath": "api/generos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[PeliculasAPI.Entidades.Genero, PeliculasAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PeliculasAPI.Controllers.GenerosController",
     "Method": "Post",
     "RelativePath": "api/generos",
     "HttpMethod": "POST",
@@ -71,107 +91,7 @@
         ],
         "StatusCode": 200
       }
-    ]
-  },
-  {
-    "ContainingType": "PeliculasAPI.Controllers.GenerosController",
-    "Method": "GetEjemploProveedorConfiguracion",
-    "RelativePath": "api/generos/ejemplo-proovedor-configuracion",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.String",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "PeliculasAPI.Controllers.GenerosController",
-    "Method": "Get",
-    "RelativePath": "api/generos/listado",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.List\u00601[[PeliculasAPI.Entidades.Genero, PeliculasAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "PeliculasAPI.Controllers.GenerosController",
-    "Method": "Get",
-    "RelativePath": "api/generos/obtenerTodos",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.List\u00601[[PeliculasAPI.Entidades.Genero, PeliculasAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "PeliculasAPI.Controllers.GenerosController",
-    "Method": "Get",
-    "RelativePath": "listado-generos",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.List\u00601[[PeliculasAPI.Entidades.Genero, PeliculasAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "PeliculasAPI.Controllers.WeatherForecastController",
-    "Method": "Get",
-    "RelativePath": "WeatherForecast",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[PeliculasAPI.WeatherForecast, PeliculasAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
     ],
-    "EndpointName": "GetWeatherForecast"
+    "EndpointName": "ObtenerGeneroPorId"
   }
 ]

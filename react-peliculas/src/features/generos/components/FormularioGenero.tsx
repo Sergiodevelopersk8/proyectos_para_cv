@@ -5,6 +5,7 @@ import { yupResolver } from "@hookform/resolvers/yup";
 import { primeraLetraMayuscula } from "../../../validaciones/Validaciones";
 import { NavLink } from "react-router";
 import Boton from "../../../components/Boton";
+import MostrarErrores from "./MostrarErrores";
 
 export default function FormularioGenero(props: FormularioGeneroProps) {
 
@@ -26,6 +27,7 @@ const {
     return (
 
     <>
+    <MostrarErrores errores={props.errores}/>
  <form onSubmit={handleSubmit(props.onSubmit)}>
 
     <div className="form-group">
@@ -60,7 +62,7 @@ interface FormularioGeneroProps{
 
     modelo? : GeneroCreacion;
     onSubmit : SubmitHandler<GeneroCreacion>
-
+    errores:string[];
 
 
 }
@@ -70,6 +72,7 @@ interface FormularioGeneroProps{
 const reglasDeValidacion = yup.object({
 
   
+
   nombre: yup.string().required('El nombre es obligatorio').test(primeraLetraMayuscula()) // validacion predifinida
 
 
